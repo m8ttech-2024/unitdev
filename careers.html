@@ -65,6 +65,14 @@
                 display: none;
             }
         }
+
+        .spacing > * {
+            margin-bottom: 1.5rem;
+        }
+
+        .spacing > *:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body class="flex min-h-screen flex-col bg-gradient-to-br from-purple-700 via-purple-800 to-blue-900">
@@ -107,17 +115,17 @@
         </div>
     </header>
     <main class="flex-1 flex flex-col items-center justify-center px-4">
-        <div class="text-center max-w-3xl">
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-white mb-4">Careers at <span class="text-blue-300">UnitDev</span></h1>
-            <p class="text-xl text-white/80 mb-8">Join our team and help us create quality assured products.</p>
+        <div class="text-center max-w-3xl spacing">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-white">Careers at <span class="text-blue-300">UnitDev</span></h1>
+            <p class="text-xl text-white/80">Join our team and help us create quality assured products.</p>
         </div>
-        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-8 spacing">
             <!-- Example job posting -->
-            <div class="bg-white/10 p-6 rounded-lg shadow-md backdrop-blur-sm">
+            <div class="bg-white/10 p-6 rounded-lg shadow-md backdrop-blur-sm spacing">
                 <h2 class="text-xl font-semibold text-white">Customer Service Advisor</h2>
-                <p class="text-white/80 mt-2">Location: Remote</p>
-                <p class="mt-4 text-white/70">We are looking for a skilled, helpful and friendly team member who can be the first point-of-contact for customer inquiries.</p>
-                <a href="https://unitdev25.jp.larksuite.com/share/base/form/shrjpwByHIyfLzvflnUVeyQr2Mb" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 bg-blue-500 hover:bg-blue-600 text-white">
+                <p class="text-white/80">Location: Remote</p>
+                <p class="text-white/70">We are looking for a skilled, helpful and friendly team member who can be the first point-of-contact for customer inquiries.</p>
+                <a href="https://unitdev25.jp.larksuite.com/share/base/form/shrjpwByHIyfLzvflnUVeyQr2Mb" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 bg-blue-500 hover:bg-blue-600 text-white mt-4">
                     Apply Now
                 </a>
             </div>
