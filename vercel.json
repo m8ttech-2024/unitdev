@@ -3,8 +3,4 @@
       { "source": "/careers", "destination": "/careers.html" }
     ]
   }
-  {
-    "rewrites": [
-      { "source": "/privacy-policy, "destination": "/privacy-policy.docx" }
-    ]
-  }
+  
