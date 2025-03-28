@@ -39,6 +39,45 @@
         transform: translate(-50%, -50%) scale(1.5);
         background-color: rgba(255, 255, 255, 0.5);
     }
+
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        header .flex.items-center.space-x-6 {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .flex.flex-col.sm\:flex-row {
+            flex-direction: column;
+        }
+
+        .flex.justify-center.mt-24.space-x-2 {
+            margin-top: 12px;
+        }
+
+        footer {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        footer .w-6.h-6 {
+            margin-top: 1rem;
+        }
+    }
 </style>
 </head>
 <body class="__className_d65c78">
