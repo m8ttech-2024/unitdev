@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    { "source": "/careers", "destination": "/careers.html" },
-    { "source": "/privacy-policy", "destination": "/privacy-policy.pdf" }
+    { "source": "/careers", "destination": "/careers.html" }
+  ],
+  "redirects": [
+    { "source": "/privacy-policy", "destination": "/privacy-policy.pdf", "permanent": true }
   ]
 }
